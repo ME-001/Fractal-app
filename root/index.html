@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sierpiński Triangle Fractal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Canvas for drawing the fractal -->
+  <canvas id="canvas" width="600" height="600"></canvas>
+  
+  <!-- Controls -->
+  <div id="controls">
+    <label for="numPoints">Number of Points: </label>
+    <input type="range" id="numPoints" min="1000" max="1000000" value="100000" step="1000">
+    <span id="numPointsValue">100000</span>
+    <button id="updateBtn">Update Plot</button>
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
